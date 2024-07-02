@@ -11,7 +11,7 @@ namespace Pinokio.Simulation.Models.IK
     public static class CSVHelper
     {
         private static string _resultPath = string.Empty;
-        private static string _mainDBPath = string.Empty;
+        private static string _mainDBPath = string.Empty;  
         public static string ResultPath { get => _resultPath; }
         public static string MainDBPath { get => _mainDBPath; }
 
